@@ -2,6 +2,7 @@ $(document).on("ready", function(){
 
   $('form').on('submit', function(event){
     event.preventDefault();
+    $('img').remove();
 
     $.ajax({
 
